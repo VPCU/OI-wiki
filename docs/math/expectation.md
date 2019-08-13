@@ -18,7 +18,7 @@
 
 ### 定义
 
-如果在相同条件下，进行了 n 次试验，事件 A 发生了 $N_A$ 次，那么 $\frac{N_A}{n}$ 称为事件 A 发生的概率。
+如果在相同条件下，进行了 n 次试验，事件 A 发生了 $N_A$ 次，那么 $\frac{N_A}{n}$ 称为事件 A 发生的频率。n足够大时，事件A发生的频率近似等于事件A发生的概率。
 
 ### 公理
 
@@ -26,11 +26,11 @@
 
  **规范性** ：事件空间的概率值为 $1$ ， $P(S)=1$ .
 
- **容斥性** ：若 $P(A+B) = P(A)+P(B)$ ，则 $A$ 和 $B$ 互为独立事件。
+ **容斥性** ：若 $P(A+B) = P(A)+P(B)$ ，则 $A$ 和 $B$ 互为互斥事件。
 
 ### 计算
 
- **全概率公式** ：若事件 $A_1,A_2,\ldots,A_n$ 构成一个完备的事件且都有正概率，即 $\forall i,j, A_i\cap A_j=\varnothing$ 且 $\displaystyle \sum_{i=1}^n A_i=1$ ，有 $\displaystyle P(B)=\sum_{i=1}^n P(A_i)P(B|A_i)$ 。
+ **全概率公式** ：若互斥事件 $A_1,A_2,\ldots,A_n$ 的和事件为事件空间且每个事件都有正概率，即 $\forall i,j, A_i\cap A_j=\varnothing$ 且 $\displaystyle \sum_{i=1}^n A_i=1$ ，有 $\displaystyle P(B)=\sum_{i=1}^n P(A_i)P(B|A_i)$ 。
 
  **贝叶斯定理** ： $\displaystyle P(B_i|A)=\frac{P(B_i)P(A|B_i)}{\displaystyle \sum_{j=1}^n P(B_j)P(A|B_j)}$ 
 
